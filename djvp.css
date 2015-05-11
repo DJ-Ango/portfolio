@@ -1,0 +1,150 @@
+.content{width: 80%;}
+
+
+.logo{float: left;
+    margin-left: 2%;
+    margin-top: 0.4%;
+    width: 15%;}
+
+/*Navigatieopmaak*/
+nav{ font-family: 'ageregular';
+    font-size: 2em;
+    list-style-type: none;
+    background-color: black;
+    height: 2em;
+}
+
+    nav ul{margin-left: 20%;
+        padding-top: 0.6em;
+        width: 55%;}
+
+        nav ul li{display: inline;}
+
+            nav ul li a{text-decoration: none;
+                margin-left: 2%;
+                color: white;
+                padding-right: 5%;}
+
+
+                
+                .fb{width: 3%;
+                    margin-right: 20%;
+                    margin-top: -1.3em;
+                    float: right;}
+                    
+                    .tw {
+                        float: right;
+                        margin-left: 10%;
+                        margin-top: -1.3em;
+                        width: 3.3%;
+                    }
+                  
+
+
+
+
+ .selected{color: red;}
+ .selected:hover{color: red;}
+
+nav ul li a:hover{color: lightblue;}
+
+
+
+
+.kader{width: 99.8%;
+    margin: auto;
+}
+
+
+
+
+.kader li a{text-decoration: none;
+display: inline;}
+
+
+.bub{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+margin-left: 2%; }
+
+.art{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+margin-left: 2%;}
+
+.demi{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+margin-left: 2%;}
+
+.evelyne{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+margin-left: 2%;}
+
+.felicia{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+margin-left: 2%;}
+
+.kevin{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+}
+
+.tijs{width: 30%;
+float: left;
+padding-right:1%;
+margin-top: 3%;
+margin-left: 2%;}
+
+/*foto's*/
+
+
+.Bubka{width:100%;}
+.Art{width: 100%;}
+.Demi{width: 100%;}
+.Eve{width: 100%;}
+.Felicia{width: 100%;}
+.Kevin{width: 100%;}
+.Tijs{width: 100%;}
+
+
+/*fontfamily*/
+
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('font/CODE Light-webfont.eot');
+    src: url('font/CODE Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CODE Light-webfont.woff2') format('woff2'),
+         url('font/CODE Light-webfont.woff') format('woff'),
+         url('font/CODE Light-webfont.ttf') format('truetype'),
+         url('font/CODE Light-webfont.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('font/CODE Bold-webfont.eot');
+    src: url('font/CODE Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CODE Bold-webfont.woff2') format('woff2'),
+         url('font/CODE Bold-webfont.woff') format('woff'),
+         url('font/CODE Bold-webfont.ttf') format('truetype'),
+         url('font/CODE Bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'ageregular';
+    src: url('font/Age-webfont.eot');
+    src: url('font/Age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Age-webfont.woff2') format('woff2'),
+         url('font/Age-webfont.woff') format('woff'),
+         url('font/Age-webfont.ttf') format('truetype'),
+         url('font/Age-webfont.svg#ageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}

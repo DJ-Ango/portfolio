@@ -1,0 +1,185 @@
+.content{width: 80%;}
+
+
+.logo{float: left;
+    margin-left: 2%;
+    margin-top: 0.4%;
+    width: 15%;}
+
+/*Navigatieopmaak*/
+nav{ font-family: 'ageregular';
+    font-size: 2em;
+    list-style-type: none;
+    background-color: black;
+    height: 2em;
+}
+
+    nav ul{margin-left: 20%;
+        padding-top: 0.6em;
+        width: 55%;}
+
+        nav ul li{display: inline;}
+
+            nav ul li a{text-decoration: none;
+                margin-left: 2%;
+                color: white;
+                padding-right: 5%;}
+
+
+                
+                .fb{width: 3%;
+                    margin-right: 20%;
+                    margin-top: -1.3em;
+                    float: right;}
+                    
+                    .tw {
+                        float: right;
+                        margin-left: 10%;
+                        margin-top: -1.3em;
+                        width: 3.3%;
+                    }
+                  
+
+
+
+
+ .selected{color: red;}
+ .selected:hover{color: red;}
+
+nav ul li a:hover{color: lightblue;}
+
+
+
+
+.kader{width: 99.8%;
+    margin: auto;
+}
+
+
+
+
+.kader li a{text-decoration: none;
+display: inline;}
+
+
+.photosh {
+    background-color: #000000;
+    float: left;
+    font-size: 2em;
+    margin-top: 2%;
+    width: 100%;}
+    
+    .logolink{
+    margin-top: 5%;
+    float: left;
+    font-size: 2em;}
+        
+        .laylink{
+         float: left;
+    font-size: 2em;
+    margin-top: 2%;
+    width: 100%;
+    background-color: #000000;
+   }
+            
+            .weblink{
+            margin-top: 5%;
+            float: left;
+            font-size: 2em;}
+.photo {
+    color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 13%;
+    text-decoration: none;
+}
+.logoli {
+    color: #000000;
+    float: left;
+    margin-left: 10%;
+    margin-top: 13%;
+    text-decoration: none;
+}
+.lay {
+    color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 16%;
+    text-decoration: none;
+}
+.web{
+    color: #000000;
+    float: left;
+    margin-left: 10%;
+    margin-top: 13%;
+    text-decoration: none;}
+
+
+
+            /*FOTO's*/
+
+
+.vb1 {
+    float: left;
+    margin-left: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 40%;
+}
+
+.vb2{float: left;
+    margin-left: 13%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 40%;}
+
+.vb3 {
+    float: left;
+    margin-left: 19%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 25%;
+}
+.vb4{float: left;
+    margin-left: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 40%;}
+
+
+
+
+
+
+/*fontfamily*/
+
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('font/CODE Light-webfont.eot');
+    src: url('font/CODE Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CODE Light-webfont.woff2') format('woff2'),
+         url('font/CODE Light-webfont.woff') format('woff'),
+         url('font/CODE Light-webfont.ttf') format('truetype'),
+         url('font/CODE Light-webfont.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('font/CODE Bold-webfont.eot');
+    src: url('font/CODE Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CODE Bold-webfont.woff2') format('woff2'),
+         url('font/CODE Bold-webfont.woff') format('woff'),
+         url('font/CODE Bold-webfont.ttf') format('truetype'),
+         url('font/CODE Bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'ageregular';
+    src: url('font/Age-webfont.eot');
+    src: url('font/Age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Age-webfont.woff2') format('woff2'),
+         url('font/Age-webfont.woff') format('woff'),
+         url('font/Age-webfont.ttf') format('truetype'),
+         url('font/Age-webfont.svg#ageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}

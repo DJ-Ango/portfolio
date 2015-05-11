@@ -1,0 +1,143 @@
+html{background-color: #000000;}
+.content{width: 80%;
+}
+
+
+.logo{float: left;
+    margin-left: 2%;
+    margin-top: 0.4%;
+    width: 15%;}
+
+/*Navigatieopmaak*/
+nav{ font-family: 'ageregular';
+    font-size: 2em;
+    list-style-type: none;
+    background-color: black;
+    height: 2em;
+}
+
+    nav ul{margin-left: 20%;
+        padding-top: 0.6em;
+        width: 55%;}
+
+        nav ul li{display: inline;}
+
+            nav ul li a{text-decoration: none;
+                margin-left: 2%;
+                color: white;
+                padding-right: 5%;}
+
+
+                
+                .fb{width: 3%;
+                    margin-right: 20%;
+                    margin-top: -1.3em;
+                    float: right;}
+                    
+                    .tw {
+                        float: right;
+                        margin-left: 10%;
+                        margin-top: -1.3em;
+                        width: 3.3%;
+                    }
+                  
+
+
+
+
+ .selected{color: red;}
+ .selected:hover{color: red;}
+
+nav ul li a:hover{color: lightblue;}
+
+
+
+
+.kader{width: 99.8%;
+    margin: auto;
+    background-color: #000000;
+}
+
+
+
+
+.kader li a{text-decoration: none;
+display: inline;}
+
+#formulier {
+    background-color: #f3f3f3;
+    border: 1px solid #a1a1a1;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 10px;
+    width: 30%;
+}
+#formulier input{
+    display:block;
+    float:left;
+    width:30%;
+    margin-bottom:10px;
+}
+#formulier label{
+    display:block;
+    width:30%;
+    float:left;
+    text-align:right;
+    margin: 0 20px 10px 0;
+}
+br{
+    clear:left;
+    }
+    #formulier input [type=radio], #formulier input[type=checkbox]{
+        width:20px;
+    }
+    input[type=search]{
+    -webkit-appearance: textfield;
+    }
+    .se{float: left;
+        margin-top: 2%;}
+    .res{float: left;
+        margin-top: 2%;}
+iframe{width: 50%;
+margin-top: -20%;
+margin-left: 40%;}
+
+
+/*foto's*/
+
+
+
+
+/*fontfamily*/
+
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('font/CODE Light-webfont.eot');
+    src: url('font/CODE Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CODE Light-webfont.woff2') format('woff2'),
+         url('font/CODE Light-webfont.woff') format('woff'),
+         url('font/CODE Light-webfont.ttf') format('truetype'),
+         url('font/CODE Light-webfont.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('font/CODE Bold-webfont.eot');
+    src: url('font/CODE Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CODE Bold-webfont.woff2') format('woff2'),
+         url('font/CODE Bold-webfont.woff') format('woff'),
+         url('font/CODE Bold-webfont.ttf') format('truetype'),
+         url('font/CODE Bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'ageregular';
+    src: url('font/Age-webfont.eot');
+    src: url('font/Age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Age-webfont.woff2') format('woff2'),
+         url('font/Age-webfont.woff') format('woff'),
+         url('font/Age-webfont.ttf') format('truetype'),
+         url('font/Age-webfont.svg#ageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
