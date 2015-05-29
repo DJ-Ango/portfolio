@@ -1,4 +1,4 @@
-html{background-image: url("img/under.jpg");
+html{background-image: url("img/skull.jpg");
 background-repeat: no-repeat;}
 
 .content{width: 80%;}
@@ -122,7 +122,19 @@ display: inline;}
 
             /*FOTO's*/
 
+.shoot { position:relative;  }
+.shoot img { position:absolute; left:0; top:0; }
+.afb1{width: 30%;display: none;margin-left: 10%;margin-top: -4%;}
+.afb2{width: 27%;display: none;margin-left: 10%;margin-top: -4%;}
+.afb3{width: 27%;display: none;margin-left: 10%;margin-top: -4%;}
+.afb4{width: 40%;display: none;margin-left: 10%;margin-top: 7%;}
+.afb5{width: 40%;display: none;margin-left: 10%;margin-top: 4%;}
+.afb6{width: 30%;display: none;margin-left: 10%;margin-top: -2%;}
+.afb7{width: 40%;display: none;margin-left: 10%;margin-top: 7%;}
+.afb8{width: 40%;display: none;margin-left: 10%;margin-top: 7%;}
 
+
+.selected2{display: inline;}
 
 
 
