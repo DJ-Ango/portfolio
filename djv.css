@@ -125,7 +125,57 @@ h1.welkom {
 .vb3{width: 34%;}
 
 
+@media screen and (max-width: 700px) {
+    
+   .logo {margin-top: 2%;} 
+    
+   nav{ font-family: 'ageregular';
+    font-size: 1.5em;
+    list-style-type: none;
+    background-color: black;
+    height: 4em;
+}
 
+    nav ul{margin-left: 34%;
+        padding-top: 1.5em;
+        width: 65%;}
+
+        nav ul li{display: inline;}
+
+            nav ul li a{text-decoration: none;
+                margin-left: 5%;
+                color: white;
+                padding-right: 0%;}
+                 
+
+
+                 .about {
+    float: left;
+    margin-left: -28%;
+    margin-top: 30%;
+    width: 22%;
+}
+
+   .about p {
+    color: white;
+    float: left;
+    font-size: 1em;
+}
+.me{margin-left: 26%;}
+.welkomp {
+    float: left;
+    font-size: 1em;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 43%;}
+    
+    h1.welkom {margin-left: 21%;
+                margin-top: 7%;}
+    
+    .infovb1 {font-size: 1em;}
+    .infovb2 {font-size: 1em;}
+    .infovb3 {font-size: 1em;}
+}
 
 
 
