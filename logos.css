@@ -1,4 +1,4 @@
-html{background-image: url("img/under.jpg");
+html{background-image: url("img/hand.jpg");
 background-repeat: no-repeat;}
 
 .content{width: 80%;}
@@ -122,6 +122,18 @@ display: inline;}
 
             /*FOTO's*/
 
+.mylogo{width: 33%;
+    margin-left: 14%;
+    margin-top: -3%;
+
+
+ animation: spin 5s infinite linear;}
+
+/*keyframes*/
+
+@keyframes spin{ from {transform:rotateY(0deg);}
+to {transform:rotateY(360deg);}
+}
 
 
 
